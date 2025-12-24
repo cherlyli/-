@@ -205,7 +205,7 @@ const ShanghaiIcon = L.divIcon({
     justify-content: center;
     gap: 6px;
     white-space: nowrap;
-    border: 2px solid rgba(255,255,255,0.9);
+    border: 1px solid rgba(255,255,255,0.9);
     width: max-content;
   ">
     <span>上海</span>
