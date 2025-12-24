@@ -191,20 +191,22 @@ const createCustomIcon = (city: CityData, isSelected: boolean) => {
 const ShanghaiIcon = L.divIcon({
   className: "shanghai-marker",
   html: `<div style="
+    position: absolute;
+    transform: translate(-50%, -50%);
     background: #10b981; 
     color: #ffffff; 
     padding: 8px 16px; 
-    border-radius: 24px; 
+    border-radius: 99px; 
     font-weight: 800; 
     font-size: 13px; 
     box-shadow: 0 4px 20px rgba(16, 185, 129, 0.6); 
     display: flex; 
     align-items: center; 
-    gap: 8px;
+    justify-content: center;
+    gap: 6px;
     white-space: nowrap;
-    transform: translate(-50%, -120%);
     border: 2px solid rgba(255,255,255,0.9);
-    backdrop-filter: blur(4px);
+    width: max-content;
   ">
     <span>上海</span>
     <span style="font-size: 16px; line-height: 1;">🌞</span>
